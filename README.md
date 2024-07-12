@@ -1,11 +1,6 @@
 These functions in Python allow you to connect to a container in Azure storage and then download or upload a file.
 To use these functions :
 
-import pandas as pd
-from azure_functions import *
-
-file_name ='your_file.xlsx'
-
 def read_file(file_name:str):
     '''read and upload a file in the directory
     '''
